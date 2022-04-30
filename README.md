@@ -33,3 +33,16 @@ add models folder to .gitignore
 ```bash
 echo "TensorFlow/models" >> .gitignore
 ```
+
+## Protobuff Installation/Compilation
+
+- Visit the link - https://github.com/protocolbuffers/protobuf/releases
+    - windows user -
+        search for -  protoc-3.20.1-win64.zip
+    - for mac users -
+        search for -  protoc-3.20.1-osx-x86_64.zip
+    - for linux users -
+        ```
+        sudo apt install -y protobuf-compiler
+        ```
+- Unzip into root folder and add `<PATH TO protoc folder>/bin` into sytstem environment variable
