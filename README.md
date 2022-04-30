@@ -70,3 +70,19 @@ python -m pip install .
 ```bash
 python object_detection/builders/model_builder_tf2_test.py
 ```
+
+# Run examples -
+
+- Create workspace/example_1 directory in project root
+    ```bash
+    mkdir -p workspace/example_1
+    ```
+
+- cd to workspace/example_1
+    ```bash
+    cd workspace/example_1
+    ```
+- Download notebook
+    ```bash
+    curl https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/2.2.0/_downloads/7f6123c070712ed53dd2521219dd011c/plot_object_detection_simple.ipynb > plot_object_detection_simple.ipynb
+    ```
