@@ -65,3 +65,8 @@ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonA
 cp object_detection/packages/tf2/setup.py .
 python -m pip install .
 ```
+
+## test yout intallation -
+```bash
+python object_detection/builders/model_builder_tf2_test.py
+```
