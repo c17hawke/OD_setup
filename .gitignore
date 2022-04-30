@@ -129,3 +129,13 @@ dmypy.json
 .pyre/
 TensorFlow/models
 protoc
+workspace/example_1/data/images/image1.jpg
+workspace/example_1/data/images/image2.jpg
+workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/mscoco_label_map.pbtxt
+workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/pipeline.config
+workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/checkpoint/checkpoint
+workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/checkpoint/ckpt-0.data-00000-of-00001
+workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/checkpoint/ckpt-0.index
+workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/saved_model/saved_model.pb
+workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/saved_model/variables/variables.data-00000-of-00001
+workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/saved_model/variables/variables.index
