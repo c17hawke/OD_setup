@@ -46,3 +46,11 @@ echo "TensorFlow/models" >> .gitignore
         sudo apt install -y protobuf-compiler
         ```
 - Unzip into root folder and add `<PATH TO protoc folder>/bin` into sytstem environment variable
+
+- run the following command:
+```bash
+cd TensorFlow/models/research
+protoc object_detection/protos/*.proto --python_out=.
+```
+
+## Install 
