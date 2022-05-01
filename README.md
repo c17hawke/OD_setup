@@ -137,3 +137,16 @@ python generate_tfrecord.py -x images/test -l annotations/label_map.pbtxt -o ann
 
 ## Configure training pipeline
 - create a folder my_ssd_resnet50_v1_fpn in training_demo/models folder
+- copy pipeline.config here from pre-trained-model directory
+- update it as per the documentation - [link](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#preparing-the-workspace)
+
+## Copy training file from TensorFlow/models/research/object_detection/ to the root of training_demo folder
+
+```bash
+cp ../../TensorFlow/models/research/object_detection/model_main_tf2.py .
+```
+
+## start training by running the following command -
+```bash
+python model_main_tf2.py --model_dir=models/my_ssd_resnet50_v1_fpn --pipeline_config_path=models/my_ssd_resnet50_v1_fpn/pipeline.config
+```
