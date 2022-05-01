@@ -140,3 +140,4 @@ workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/saved_mo
 workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/saved_model/variables/variables.data-00000-of-00001
 workspace/example_1/data/models/centernet_hg104_1024x1024_coco17_tpu-32/saved_model/variables/variables.index
 workspace/training_demo/images/*
+workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8.tar.gz

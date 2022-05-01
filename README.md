@@ -131,3 +131,9 @@ python generate_tfrecord.py -x images/test -l annotations/label_map.pbtxt -o ann
 ```
 
 # Configuring a Training Job
+
+## Go to [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) and download SSD ResNet50 V1 FPN 640x640 (RetinaNet50) model
+- extract the downloaded model into training_demo/pre-trained-model directory
+
+## Configure training pipeline
+- create a folder my_ssd_resnet50_v1_fpn in training_demo/models folder
